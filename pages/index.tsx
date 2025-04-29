@@ -23,8 +23,8 @@ export default function QRPage() {
       alignItems: 'center',
       justifyContent: 'center',
       height: '100vh',
-      backgroundColor: '#f0f0f0',
-      fontFamily: 'Arial, sans-serif'
+      backgroundColor: '#f9f9f9',
+      fontFamily: 'Arial, sans-serif',
     }}>
       <h1 style={{ marginBottom: '20px' }}>Scan to Visit Home Page</h1>
       <QRCodeCanvas value={url} size={256} />
